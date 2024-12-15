@@ -1,9 +1,3 @@
 pandas
-pandasai
+pandasai==0.2.2
 streamlit
-numpy
-tabulate
-PyYAML
-openai
-requests
-python-dotenv
