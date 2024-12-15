@@ -4,7 +4,7 @@ import streamlit as st
 from pandasai import Agent
 from dotenv import load_dotenv
 
-load_dotenv()
+# load_dotenv()
 user_data = pd.read_csv('final_data.csv')
 
 agent = Agent(user_data)
