@@ -19,6 +19,8 @@ if st.button("Get Answer"):
             response = agent.chat(user_query)
             st.subheader("Response:")
             st.write(response)
+            # Debugging output
+            st.text(f"Raw Response: {response}")
         except Exception as e:
             st.error(f"An error occurred: {str(e)}")
     else:
