@@ -16,6 +16,7 @@ user_query = st.text_input("Enter your query here:")
 if st.button("Get Answer"):
     if user_query.strip():
         try:
+            print("Hello")
             print(os.environ.get('PANDASAI_API_KEY', 'Key not found!'))
             response = agent.chat(user_query)
             st.subheader("Response:")
