@@ -4,7 +4,7 @@ import streamlit as st
 from pandasai import Agent
 
 os.environ['PANDASAI_API_KEY'] = '$2a$10$.7ocHqx0ITy8fRoDWD42ROp7eN8K0008Gv3xyF4XmN4pA0W4AQU5S'
-user_data = pd.read_csv('final_csv.csv')
+user_data = pd.read_csv('final_data.csv')
 
 agent = Agent(user_data)
 
