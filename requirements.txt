@@ -1,5 +1,5 @@
 pandas
-pandasai==2.4.0
+pandasai
 streamlit
 numpy
 tabulate
