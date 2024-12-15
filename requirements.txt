@@ -2,5 +2,4 @@ pandas
 pandasai==2.4.0
 streamlit
 numpy
-seaborn
 yaml
