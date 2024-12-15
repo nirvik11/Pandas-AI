@@ -4,3 +4,5 @@ streamlit
 numpy
 tabulate
 PyYAML
+openai
+requests
